@@ -17,7 +17,10 @@ public class C extends B{
 	// constructor
 	C() {
 		System.out.println("C constructor");
-
+	}
+	C(int i) {
+		super(i);
+		System.out.println("C constructor with param" + i);
 	}
 	
 	@Override

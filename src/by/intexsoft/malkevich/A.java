@@ -18,6 +18,10 @@ public class A {
 
 	}
 
+	A(int i) {
+		System.out.println("A constructor with param" + i);
+	}
+	
 	public String strProperty;
 	public static String staticStrProperty;
 

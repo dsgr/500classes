@@ -17,21 +17,23 @@ public class Main {
 		 * File file = new File("./src"); file.mkdirs(); cm.build(file); }
 		 */
 
-		A a_instance = new A();
+	/*	A a_instance = new A();
 		System.out.println("A1 " + a_instance.intProperty1);
 		System.out.println("A2 " + a_instance.intProperty2);
 		System.out.println("A3 " + a_instance.strProperty);
 		System.out.println("-------------------");
-
-		B b_instance = new B();
+*/
+		
+		/*B b_instance = new B();
 		System.out.println(b_instance.getSum());
 		System.out.println("-------------------");
-
-		C c_instance = new C();
+*/
+		C c_instance = new C(1);
 		System.out.println(c_instance.getSum());
 		System.out.println("-------------------");
 
-		System.out.println(a_instance.staticStrProperty);
+
+		
 
 	}
 

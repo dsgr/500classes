@@ -17,8 +17,14 @@ public class B extends A {
 	// constructor
 	B() {
 		System.out.println("B constructor");
-
 	}
+
+	B(int i) {
+		super(i);
+		System.out.println("B constructor with param" +i);
+	}
+
+	
 	
 	@Override
 	public int getSum() {
